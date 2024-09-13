@@ -1,0 +1,2140 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hotel_restaurant
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-12 12:53+0000\n"
+"PO-Revision-Date: 2020-08-12 12:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__bom_count
+msgid "# Bill of Material"
+msgstr "# قائمة المواد"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__used_in_bom_count
+msgid "# BoM Where Used"
+msgstr "# قائمة المواد المستخدمة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__product_variant_count
+msgid "# Product Variants"
+msgstr "# أنواع المنتجات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__product_count
+msgid "# Products"
+msgstr "# المنتجات"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.hotel_restaurant_reservation_report123
+msgid "<strong>Customer Name</strong>"
+msgstr "<strong>اسم العميل</strong>"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.hotel_restaurant_reservation_report123
+msgid "<strong>End Date</strong>"
+msgstr "<strong>تاريخ الانتهاء</strong>"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.hotel_restaurant_reservation_report123
+msgid "<strong>Reservation No</strong>"
+msgstr "<strong>رقم الحجز</strong>"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.hotel_restaurant_reservation_report123
+msgid "<strong>Start Date</strong>"
+msgstr "<strong>تاريخ البدء</strong>"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__description_sale
+msgid ""
+"A description of the Product that you want to communicate to your customers."
+" This description will be copied to every Sales Order, Delivery Order and "
+"Customer Invoice/Credit Note"
+msgstr ""
+"وصف للمنتج الذي ترغب في إبلاغ عملائك به. سيتم نسخ هذا الوصف إلى كل طلب مبيعات، طلب تسليم و"
+"فاتورة عميل/سند ائتمان"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__type
+msgid ""
+"A storable product is a product for which you manage stock. The Inventory app has to be installed.\n"
+"A consumable product is a product for which stock is not managed.\n"
+"A service is a non-material product you provide."
+msgstr ""
+"المنتج القابل للتخزين هو منتج تدير مخزونه. يجب تثبيت تطبيق المخزون.\n"
+"المنتج القابل للاستهلاك هو منتج لا يتم إدارة مخزونه.\n"
+"الخدمة هي منتج غير مادي تقدمه."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__accessory_product_ids
+msgid ""
+"Accessories show up when the customer reviews the cart before payment "
+"(cross-sell strategy)."
+msgstr ""
+"تظهر الإكسسوارات عندما يراجع العميل السلة قبل الدفع "
+"(استراتيجية البيع المتقاطع)."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__accessory_product_ids
+msgid "Accessory Products"
+msgstr "المنتجات الإضافية"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_menucard_type_form
+msgid "Account Properties"
+msgstr "خصائص الحساب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_needaction
+msgid "Action Needed"
+msgstr "إجراء مطلوب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__active
+msgid "Active"
+msgstr "نشط"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__activity_ids
+msgid "Activities"
+msgstr "الأنشطة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "تزيين استثناء النشاط"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_restaurant_kitchen_order_tickets
+msgid "Add BOM to restaurant module"
+msgstr "إضافة قائمة المواد إلى وحدة المطعم"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_restaurant_order_list
+msgid "Add restaurant inventory"
+msgstr "إضافة مخزون المطعم"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__inventory_availability
+msgid "Adds an inventory availability status on the web product page."
+msgstr "يضيف حالة توافر المخزون على صفحة المنتج على الويب."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__alternative_product_ids
+msgid "Alternative Products"
+msgstr "المنتجات البديلة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__product_template_attribute_value_ids
+msgid "Attribute Values"
+msgstr "قيم السمات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__available_threshold
+msgid "Availability Threshold"
+msgstr "حد التوافر"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_restaurant_tables__state__available
+msgid "Available"
+msgstr "متاح"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__available_in_pos
+msgid "Available in POS"
+msgstr "متاح في نقاط البيع"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__produce_delay
+msgid ""
+"Average lead time in days to manufacture this product. In the case of multi-"
+"level BOM, the manufacturing lead times of the components will be added."
+msgstr ""
+"متوسط الوقت اللازم لتصنيع هذا المنتج بالأيام. في حالة وجود قائمة مواد متعددة المستويات، سيتم إضافة أوقات تصنيع المكونات."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__variant_bom_ids
+msgid "BOM Product Variants"
+msgstr "أنواع منتجات قائمة المواد"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__barcode
+msgid "Barcode"
+msgstr "الرمز الشريطي"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__bom_ids
+msgid "Bill of Materials"
+msgstr "قائمة المواد"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__bom_line_ids
+msgid "BoM Components"
+msgstr "مكونات قائمة المواد"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_restaurant_tables__state__book
+msgid "Booked"
+msgstr "محجوز"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__can_image_1024_be_zoomed
+msgid "Can Image 1024 be zoomed"
+msgstr "هل يمكن تكبير الصورة 1024"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__can_publish
+msgid "Can Publish"
+msgstr "يمكن نشره"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__can_image_variant_1024_be_zoomed
+msgid "Can Variant Image 1024 be zoomed"
+msgstr "هل يمكن تكبير صورة النوع 1024"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__purchase_ok
+msgid "Can be Purchased"
+msgstr "يمكن شراؤه"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__rental
+msgid "Can be Rent"
+msgstr "يمكن تأجيره"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__sale_ok
+msgid "Can be Sold"
+msgstr "يمكن بيعه"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.hotel_restaurant_reservation_wizard_view
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.hotel_wizard_view
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_reservation_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_tables_form
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_order_form
+msgid "Cancel Order"
+msgstr "إلغاء الطلب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_reservation_order__state__cancel
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_restaurant_order__state__cancel
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_restaurant_reservation__state__cancel
+msgid "Cancelled"
+msgstr "ملغى"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_tables__capacity
+msgid "Capacity"
+msgstr "القدرة الاستيعابية"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__cart_qty
+msgid "Cart Qty"
+msgstr "كمية السلة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__menu_id
+msgid "Category"
+msgstr "الفئة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__route_from_categ_ids
+msgid "Category Routes"
+msgstr "طرق الفئة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__pos_categ_id
+msgid "Category used in the Point of Sale."
+msgstr "الفئة المستخدمة في نقاط البيع."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__to_weight
+msgid ""
+"Check if the product should be weighted using the hardware scale "
+"integration."
+msgstr ""
+"تحقق مما إذا كان يجب وزن المنتج باستخدام تكامل مقياس الأجهزة."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__available_in_pos
+msgid "Check if you want this product to appear in the Point of Sale."
+msgstr "تحقق مما إذا كنت تريد أن يظهر هذا المنتج في نقاط البيع."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__child_id
+msgid "Child Categories"
+msgstr "الفئات الفرعية"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__color
+msgid "Color Index"
+msgstr "مؤشر اللون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__combination_indices
+msgid "Combination Indices"
+msgstr "مؤشرات التوليف"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__company_id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__company_id
+msgid "Company"
+msgstr "الشركة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__complete_name
+msgid "Complete Name"
+msgstr "الاسم الكامل"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_reservation_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_tables_form
+msgid "Confirm"
+msgstr "تأكيد"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_reservation_order_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_order_form
+msgid "Confirm Order"
+msgstr "تأكيد الطلب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_reservation_order__state__confirm
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_restaurant_order__state__confirm
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_restaurant_reservation__state__confirm
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_restaurant_order_filter
+msgid "Confirmed"
+msgstr "مؤكد"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__standard_price
+msgid "Cost"
+msgstr "التكلفة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__cost_currency_id
+msgid "Cost Currency"
+msgstr "عملة التكلفة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__cost_method
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__property_cost_method
+msgid "Costing Method"
+msgstr "طريقة التكلفة"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_reservation_order_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_order_form
+msgid "Create Invoice"
+msgstr "إنشاء فاتورة"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.hotel_wizard_view
+msgid "Create Kots"
+msgstr "إنشاء Kots"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_reservation_form
+msgid "Create Order"
+msgstr "إنشاء طلب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__create_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__create_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__create_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets__create_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__create_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__create_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__create_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation_wizard__create_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_tables__create_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_wizard__create_uid
+msgid "Created by"
+msgstr "أنشأه"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__create_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__create_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__create_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets__create_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__create_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__create_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__create_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation_wizard__create_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_tables__create_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_wizard__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__currency_id
+msgid "Currency"
+msgstr "العملة"
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__qty_available
+msgid ""
+"Current quantity of products.\n"
+"In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
+"stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' type."
+msgstr "الكمية الحالية من المنتجات.\n"
+"في سياق مع موقع تخزين واحد، يشمل هذا السلع المخزنة في هذا الموقع، أو أي من المواقع الفرعية له.\n"
+"في سياق مع مستودع واحد، يشمل هذا السلع المخزنة في موقع التخزين الخاص بهذا المستودع، أو أي من المواقع الفرعية له.\n"
+"بخلاف ذلك، يشمل هذا السلع المخزنة في أي موقع تخزين بنوع 'داخلي'."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__custom_message
+msgid "Custom Message"
+msgstr "رسالة مخصصة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__partner_id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__partner_id
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_reservation_order_filter
+msgid "Customer"
+msgstr "عميل"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__sale_delay
+msgid "Customer Lead Time"
+msgstr "مدة الانتظار للعميل"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__cname
+msgid "Customer Name"
+msgstr "اسم العميل"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__partner_ref
+msgid "Customer Ref"
+msgstr "مرجع العميل"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__taxes_id
+msgid "Customer Taxes"
+msgstr "ضرائب العميل"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__date1
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets__kot_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__o_date
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__supplier_taxes_id
+msgid "Default taxes used when buying the product."
+msgstr "الضرائب الافتراضية المستخدمة عند شراء المنتج."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__taxes_id
+msgid "Default taxes used when selling the product."
+msgstr "الضرائب الافتراضية المستخدمة عند بيع المنتج."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__uom_id
+msgid "Default unit of measure used for all stock operations."
+msgstr "الوحدة الافتراضية المستخدمة لجميع عمليات المخزون."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__uom_po_id
+msgid ""
+"Default unit of measure used for purchase orders. It must be in the same "
+"category as the default unit of measure."
+msgstr "الوحدة الافتراضية المستخدمة لأوامر الشراء. يجب أن تكون في نفس فئة الوحدة الافتراضية."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__seller_ids
+msgid "Define vendor pricelists."
+msgstr "تحديد قوائم الأسعار للبائعين."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__sale_delay
+msgid ""
+"Delivery lead time, in days. It's the number of days, promised to the "
+"customer, between the confirmation of the sales order and the delivery."
+msgstr "مدة الانتظار للتسليم، بالأيام. هي عدد الأيام، التي يتم وعدها للعميل، بين تأكيد طلب البيع والتسليم."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__route_ids
+msgid ""
+"Depending on the modules installed, this will allow you to define the route "
+"of the product: whether it will be bought, manufactured, replenished on "
+"order, etc."
+msgstr "بناءً على الوحدات المثبتة، سيمكنك هذا من تحديد مسار المنتج: سواء كان سيُشترى، أو يُصنع، أو يُعاد تزويده عند الطلب، وما إلى ذلك."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__description
+msgid "Description"
+msgstr "وصف"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__website_description
+msgid "Description for the website"
+msgstr "الوصف لموقع الويب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__description_pickingout
+msgid "Description on Delivery Orders"
+msgstr "الوصف على أوامر التسليم"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__description_picking
+msgid "Description on Picking"
+msgstr "الوصف على استلام الطلب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__description_pickingin
+msgid "Description on Receptions"
+msgstr "الوصف على الاستلامات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__website_sequence
+msgid "Determine the display order in the Website E-commerce"
+msgstr "تحديد ترتيب العرض في التجارة الإلكترونية للموقع"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__display_name
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__display_name
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__display_name
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets__display_name
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__display_name
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__display_name
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__display_name
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation_wizard__display_name
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_tables__display_name
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_wizard__display_name
+#: model:ir.model.fields,field_description:hotel_restaurant.field_report_hotel_restaurant_hotel_restaurant_reservation_report123__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_reservation_order__state__done
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_restaurant_order__state__done
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_restaurant_reservation__state__done
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_reservation_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_restaurant_order_filter
+msgid "Done"
+msgstr "منجز"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_reservation_order__state__draft
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_restaurant_order__state__draft
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_restaurant_reservation__state__draft
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_reservation_order_filter
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_restaurant_order_filter
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__end_date
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__tracking
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "ضمان تتبع منتج قابل للتخزين في مستودعك."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__property_account_expense_id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__property_account_expense_categ_id
+msgid "Expense Account"
+msgstr "حساب المصاريف"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__expense_policy
+msgid ""
+"Expenses and vendor bills can be re-invoiced to a customer.With this option,"
+" a validated expense can be re-invoice to a customer at its cost or sales "
+"price."
+msgstr "يمكن إعادة فواتير المصاريف وفواتير الموردين إلى العميل. باستخدام هذا الخيار، يمكن إعادة فاتورة مصاريف معتمدة إلى العميل بتكلفتها أو بسعر البيع."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__product_template_image_ids
+msgid "Extra Product Media"
+msgstr "وسائط إضافية للمنتج"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__product_variant_image_ids
+msgid "Extra Variant Images"
+msgstr "صور إضافية للمتغيرات"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.hotel_restaurant_reservation_wizard_view
+msgid "Fill The Dates"
+msgstr "املأ التواريخ"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_follower_ids
+msgid "Followers"
+msgstr "متابعون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "متابعون (قنوات)"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "متابعون (شركاء)"
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.menu_open_hotel_menucard_form
+msgid "Food Items"
+msgstr "عناصر الطعام"
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.menu_action_hotel_menucard_type_view_form
+msgid "FoodItem Categories"
+msgstr "فئات عناصر الطعام"
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.menu_action_hotel_menucard_type_view_form_parent
+msgid "FoodItem Definations"
+msgstr "تعريفات عناصر الطعام"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__removal_strategy_id
+msgid "Force Removal Strategy"
+msgstr "استراتيجية الإزالة القسرية"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__virtual_available
+msgid "Forecast Quantity"
+msgstr "الكمية المتوقعة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__virtual_available
+msgid ""
+"Forecast quantity (computed as Quantity On Hand - Outgoing + Incoming)\n"
+"In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' type."
+msgstr "الكمية المتوقعة (تحسب كـ الكمية المتاحة - الكمية الصادرة + الكمية الواردة)\n"
+"في سياق مع موقع تخزين واحد، يشمل هذا السلع المخزنة في هذا الموقع، أو أي من المواقع الفرعية له.\n"
+"في سياق مع مستودع واحد، يشمل هذا السلع المخزنة في موقع التخزين الخاص بهذا المستودع، أو أي من المواقع الفرعية له.\n"
+"بخلاف ذلك، يشمل هذا السلع المخزنة في أي موقع تخزين بنوع 'داخلي'."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__free_qty
+msgid ""
+"Forecast quantity (computed as Quantity On Hand - reserved quantity)\n"
+"In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' type."
+msgstr "الكمية المتوقعة (تحسب كـ الكمية المتاحة - الكمية المحجوزة)\n"
+"في سياق مع موقع تخزين واحد، يشمل هذا السلع المخزنة في هذا الموقع، أو أي من المواقع الفرعية له.\n"
+"في سياق مع مستودع واحد، يشمل هذا السلع المخزنة في موقع التخزين الخاص بهذا المستودع، أو أي من المواقع الفرعية له.\n"
+"بخلاف ذلك، يشمل هذا السلع المخزنة في أي موقع تخزين بنوع 'داخلي'."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__free_qty
+msgid "Free To Use Quantity"
+msgstr "الكمية المتاحة للاستخدام"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation_wizard__date_start
+msgid "From Date"
+msgstr "من تاريخ"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_reservation_order_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_order_form
+msgid "Generate KOT"
+msgstr "إنشاء KOT"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__packaging_ids
+msgid "Gives the different ways to package the same product."
+msgstr "يوفر طرق التعبئة المختلفة لنفس المنتج."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__sequence
+msgid "Gives the sequence order when displaying a product list"
+msgstr "يحدد ترتيب التسلسل عند عرض قائمة المنتجات"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_reservation_order_filter
+msgid "Group By..."
+msgstr "تجميع حسب..."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_wizard__grouped
+msgid "Group the kots"
+msgstr "تجميع KOTs"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__guest_name
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__guest_name
+msgid "Guest Name"
+msgstr "اسم الضيف"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__folio_id
+msgid "Hotel Folio"
+msgstr "فوليو الفندق"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__folio_id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__folio_id
+msgid "Hotel Folio Ref"
+msgstr "مرجع فوليو الفندق"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_menucard_type_form
+msgid "Hotel Food Items Type"
+msgstr "نوع عناصر الطعام في الفندق"
+
+#. module: hotel_restaurant
+#: model:ir.actions.act_window,name:hotel_restaurant.action_hotel_menucard_type_view_form
+msgid "Hotel FoodItem Type"
+msgstr "نوع عنصر الطعام في الفندق"
+
+#. module: hotel_restaurant
+#: model:ir.actions.act_window,name:hotel_restaurant.action_hotel_menucard_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_menucard_tree
+msgid "Hotel Menucard"
+msgstr "قائمة طعام الفندق"
+
+#. module: hotel_restaurant
+#: model:ir.actions.report,name:hotel_restaurant.hotel_restaurant_reservation_report1
+msgid "Hotel Restaurant Reservation Report"
+msgstr "تقرير حجز مطعم الفندق"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.hotel_restaurant_reservation_wizard_view
+msgid "Hotel Restaurant Wizard"
+msgstr "سحر مطعم الفندق"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.hotel_wizard_view
+msgid "Hotel Wizard"
+msgstr "سحر الفندق"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_menucard
+msgid "Hotel menucard Inherit"
+msgstr "قائمة طعام الفندق (وراثة)"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets__id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation_wizard__id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_tables__id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_wizard__id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_report_hotel_restaurant_hotel_restaurant_reservation_report123__id
+msgid "ID"
+msgstr "معرف"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__activity_exception_icon
+msgid "Icon"
+msgstr "أيقونة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة للإشارة إلى نشاط استثنائي."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__message_needaction
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم تحديدها، فإن الرسائل الجديدة تحتاج إلى اهتمامك."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__message_has_error
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم تحديدها، فإن بعض الرسائل بها خطأ في التسليم."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__active
+msgid "If unchecked, it will allow you to hide the product without removing it."
+msgstr "إذا لم يتم تحديدها، سيمكنك ذلك من إخفاء المنتج دون إزالته."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__image_1920
+msgid "Image"
+msgstr "صورة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__image_1024
+msgid "Image 1024"
+msgstr "صورة 1024"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__image_128
+msgid "Image 128"
+msgstr "صورة 128"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__image_256
+msgid "Image 256"
+msgstr "صورة 256"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__image_512
+msgid "Image 512"
+msgstr "صورة 512"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__standard_price
+msgid ""
+"In Standard Price & AVCO: value of the product (automatically computed in AVCO).\n"
+"        In FIFO: value of the last unit that left the stock (automatically computed).\n"
+"        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
+"        Used to compute margins on sale orders."
+msgstr ""
+"في السعر القياسي و AVCO: قيمة المنتج (يتم حسابها تلقائيًا في AVCO).\n"
+"        في FIFO: قيمة آخر وحدة غادرت المخزون (يتم حسابها تلقائيًا).\n"
+"        تُستخدم لتحديد قيمة المنتج عندما لا تكون تكلفة الشراء معروفة (مثل ضبط المخزون).\n"
+"        تُستخدم لحساب الهوامش على أوامر البيع."
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_reservation_order
+msgid "Includes Hotel Reservation Order"
+msgstr "يشمل طلب حجز الفندق"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_restaurant_order
+msgid "Includes Hotel Restaurant Order"
+msgstr "يشمل طلب مطعم الفندق"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_restaurant_reservation
+msgid "Includes Hotel Restaurant Reservation"
+msgstr "يشمل حجز مطعم الفندق"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_restaurant_tables
+msgid "Includes Hotel Restaurant Table"
+msgstr "يشمل طاولة مطعم الفندق"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__property_account_income_id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__property_account_income_categ_id
+msgid "Income Account"
+msgstr "حساب الدخل"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__incoming_qty
+msgid "Incoming"
+msgstr "الوارد"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__default_code
+msgid "Internal Reference"
+msgstr "المرجع الداخلي"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__barcode
+msgid "International Article Number used for product identification."
+msgstr "رقم المقالة الدولية المستخدم في تحديد المنتج."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__inventory_availability
+msgid "Inventory Availability"
+msgstr "توفر المخزون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__property_stock_inventory
+msgid "Inventory Location"
+msgstr "موقع المخزون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__valuation
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__property_valuation
+msgid "Inventory Valuation"
+msgstr "تقييم المخزون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__invoice_policy
+msgid "Invoicing Policy"
+msgstr "سياسة الفوترة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__isact
+msgid "Is Activity"
+msgstr "هو نشاط"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__isactivitytype
+msgid "Is Activity Type"
+msgstr "هو نوع النشاط"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_is_follower
+msgid "Is Follower"
+msgstr "هو متابع"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_housekeeping_activity_type__ismenutype
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__ismenutype
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_room_amenities_type__ismenutype
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_room_type__ismenutype
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_service_type__ismenutype
+#: model:ir.model.fields,field_description:hotel_restaurant.field_product_category__ismenutype
+msgid "Is Menu Type"
+msgstr "هو نوع القائمة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__is_product_variant
+msgid "Is Product Variant"
+msgstr "هو نوع منتج"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__is_published
+msgid "Is Published"
+msgstr "تم نشره"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_h_activity__ismenucard
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__ismenucard
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__isroom
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_room__ismenucard
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_room_amenities__ismenucard
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_services__ismenucard
+#: model:ir.model.fields,field_description:hotel_restaurant.field_product_product__ismenucard
+msgid "Is Room"
+msgstr "هو غرفة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__isroomtype
+msgid "Is Room Type"
+msgstr "هو نوع الغرفة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__isservicetype
+msgid "Is Service Type"
+msgstr "هو نوع الخدمة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__isservice
+msgid "Is Service id"
+msgstr "هو معرّف الخدمة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__has_configurable_attributes
+msgid "Is a configurable product"
+msgstr "هو منتج قابل للتكوين"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__isamenitype
+msgid "Is amenities Type"
+msgstr "هو نوع من وسائل الراحة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__iscategid
+msgid "Is categ id"
+msgstr "هو معرّف التصنيف"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_menucard_tree
+msgid "Item Rate"
+msgstr "سعر العنصر"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_kitchen_order_tickets_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_kitchen_order_tickets_tree
+msgid "KOT List"
+msgstr "قائمة KOT"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets__orderno
+msgid "KOT Number"
+msgstr "رقم KOT"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__property_account_income_id
+msgid ""
+"Keep this field empty to use the default value from the product category."
+msgstr ""
+"اترك هذا الحقل فارغًا لاستخدام القيمة الافتراضية من فئة المنتج."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__property_account_expense_id
+msgid ""
+"Keep this field empty to use the default value from the product category. If"
+" anglo-saxon accounting with automated valuation method is configured, the "
+"expense account on the product category will be used."
+msgstr ""
+"اترك هذا الحقل فارغًا لاستخدام القيمة الافتراضية من فئة المنتج. إذا تم تكوين "
+"المحاسبة الأنغلو-ساكسونية مع طريقة التقييم التلقائي، فسيتم استخدام حساب النفقات من فئة المنتج."
+
+#. module: hotel_restaurant
+#: model:ir.actions.act_window,name:hotel_restaurant.open_view_hotel_restaurant_kitchen_order_tickets_form_tree
+msgid "Kitchen Order List"
+msgstr "قائمة طلبات المطبخ"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__kot_order_list
+msgid "Kot Order List"
+msgstr "قائمة طلبات Kot"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard____last_update
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type____last_update
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order____last_update
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets____last_update
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order____last_update
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list____last_update
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation____last_update
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation_wizard____last_update
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_tables____last_update
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_wizard____last_update
+#: model:ir.model.fields,field_description:hotel_restaurant.field_report_hotel_restaurant_hotel_restaurant_reservation_report123____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__write_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__write_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__write_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets__write_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__write_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__write_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__write_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation_wizard__write_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_tables__write_uid
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_wizard__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__write_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__write_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__write_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets__write_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__write_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__write_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__write_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation_wizard__write_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_tables__write_date
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_wizard__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__location_id
+msgid "Location"
+msgstr "الموقع"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "المرفق الرئيسي"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__valuation
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard_type__property_valuation
+msgid ""
+"Manual: The accounting entries to value the inventory are not posted automatically.\n"
+"        Automated: An accounting entry is automatically created to value the inventory when a product enters or leaves the company.\n"
+"        "
+msgstr ""
+"يدوي: لا يتم تسجيل قيود المحاسبة لتقييم المخزون تلقائيًا.\n"
+"        تلقائي: يتم إنشاء قيد محاسبي تلقائيًا لتقييم المخزون عندما يدخل المنتج أو يغادر الشركة.\n"
+"        "
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__service_type
+msgid ""
+"Manually set quantities on order: Invoice based on the manually entered quantity, without creating an analytic account.\n"
+"Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
+"Create a task and track hours: Create a task on the sales order validation and track the work hours."
+msgstr ""
+"تعيين الكميات يدويًا على الطلب: الفاتورة بناءً على الكمية المدخلة يدويًا، دون إنشاء حساب تحليلي.\n"
+"سجلات العمل على العقد: الفاتورة بناءً على الساعات المتعقبة في سجل العمل المتعلق.\n"
+"إنشاء مهمة وتتبع الساعات: إنشاء مهمة عند تأكيد طلب البيع وتتبع ساعات العمل."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__mrp_product_qty
+msgid "Manufactured"
+msgstr "مصنوع"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__produce_delay
+msgid "Manufacturing Lead Time"
+msgstr "وقت التصنيع"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__sale_line_warn_msg
+msgid "Message for Sales Order Line"
+msgstr "رسالة لخط طلب البيع"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_ids
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__orderpoint_ids
+msgid "Minimum Stock Rules"
+msgstr "قواعد الحد الأدنى للمخزون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__name
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "موعد النشاط التالي"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط التالي"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "عدد الرسائل التي تتطلب إجراء"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي تحتوي على خطأ في التسليم"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__pricelist_item_count
+msgid "Number of price rules"
+msgstr "عدد قواعد الأسعار"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__message_unread_counter
+msgid "Number of unread messages"
+msgstr "عدد الرسائل غير المقروءة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__o_l
+msgid "O L"
+msgstr "O L"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__o_list
+msgid "O List"
+msgstr "O قائمة"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_reservation_order_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_reservation_order_tree
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_order_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_order_tree
+msgid "Order"
+msgstr "طلب"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_reservation_order_filter
+msgid "Order Date"
+msgstr "تاريخ الطلب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_reservation_order__state__order
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_restaurant_order__state__order
+#: model:ir.model.fields.selection,name:hotel_restaurant.selection__hotel_restaurant_reservation__state__order
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_reservation_order_filter
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_restaurant_order_filter
+msgid "Order Done"
+msgstr "الطلب تم"
+
+#. module: hotel_restaurant
+#: model:ir.actions.act_window,name:hotel_restaurant.open_view_hotel_reservation_order_form_tree
+#: model:ir.actions.act_window,name:hotel_restaurant.open_view_hotel_restaurant_order_form_tree1
+msgid "Order Generate"
+msgstr "توليد الطلب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__order_l
+msgid "Order L"
+msgstr "طلب L"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__order_list
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets__kot_list
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__order_list
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__order_list_ids
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_reservation_order_form
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_kitchen_order_tickets_form
+msgid "Order List"
+msgstr "قائمة الطلبات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__order_number
+msgid "Order No"
+msgstr "رقم الطلب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets__resno
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__order_no
+msgid "Order Number"
+msgstr "رقم الطلب"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_reservation_order_filter
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_restaurant_order_filter
+msgid "Order date"
+msgstr "تاريخ الطلب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__invoice_policy
+msgid ""
+"Ordered Quantity: Invoice quantities ordered by the customer.\n"
+"Delivered Quantity: Invoice quantities delivered to the customer."
+msgstr ""
+"الكمية المطلوبة: فواتير الكميات المطلوبة من قبل العميل.\n"
+"الكمية المسلمة: فواتير الكميات التي تم تسليمها للعميل."
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.menu_open_view_hotel_reservation_order_form_tree
+msgid "Orders"
+msgstr "الطلبات"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_reservation_order_filter
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_restaurant_order_filter
+msgid "Orders that KOT is generated"
+msgstr "الطلبات التي تم إنشاء KOT لها"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_reservation_order_filter
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_restaurant_order_filter
+msgid "Orders that haven't yet been confirmed"
+msgstr "الطلبات التي لم يتم تأكيدها بعد"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_reservation_order_filter
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_restaurant_order_filter
+msgid "Orders that invoice is generated"
+msgstr "الطلبات التي تم إنشاء الفاتورة لها"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__outgoing_qty
+msgid "Outgoing"
+msgstr "الصادرات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__parent_id
+msgid "Parent Category"
+msgstr "فئة الأب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__parent_path
+msgid "Parent Path"
+msgstr "مسار الأب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__pos_categ_id
+msgid "Point of Sale Category"
+msgstr "فئة نقاط البيع"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__price
+msgid "Price"
+msgstr "السعر"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__list_price
+msgid "Price at which the product is sold to customers."
+msgstr "السعر الذي يتم بيع المنتج به للعملاء."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__pricelist_id
+msgid "Pricelist"
+msgstr "قائمة الأسعار"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.hotel_restaurant_reservation_wizard_view
+msgid "Print Report"
+msgstr "طباعة التقرير"
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_product_product
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__product_variant_id
+msgid "Product"
+msgstr "منتج"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__attribute_line_ids
+msgid "Product Attributes"
+msgstr "خصائص المنتج"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_product_category
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__categ_id
+msgid "Product Category"
+msgstr "فئة المنتج"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__packaging_ids
+msgid "Product Packages"
+msgstr "تغليف المنتج"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__product_tmpl_id
+msgid "Product Template"
+msgstr "قالب المنتج"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__type
+msgid "Product Type"
+msgstr "نوع المنتج"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_menucard_form
+msgid "Product Variant"
+msgstr "متغير المنتج"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__product_id
+msgid "Product_id"
+msgstr "معرف المنتج"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__property_stock_production
+msgid "Production Location"
+msgstr "موقع الإنتاج"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__product_variant_ids
+msgid "Products"
+msgstr "المنتجات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__lst_price
+msgid "Public Price"
+msgstr "السعر العام"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__description_purchase
+msgid "Purchase Description"
+msgstr "وصف الشراء"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__uom_po_id
+msgid "Purchase Unit of Measure"
+msgstr "وحدة قياس الشراء"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__putaway_rule_ids
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__putaway_rule_ids
+msgid "Putaway Rules"
+msgstr "قواعد التخزين"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__item_qty
+msgid "Qty"
+msgstr "الكمية"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__qty_available
+msgid "Quantity On Hand"
+msgstr "الكمية المتاحة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__quantity_svl
+msgid "Quantity Svl"
+msgstr "الكمية Svl"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__incoming_qty
+msgid ""
+"Quantity of planned incoming products.\n"
+"In a context with a single Stock Location, this includes goods arriving to this Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods arriving to the Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods arriving to any Stock Location with 'internal' type."
+msgstr ""
+"الكمية المخطط لوصولها.\n"
+"في سياق يحتوي على موقع مخزون واحد، يشمل ذلك البضائع التي تصل إلى هذا الموقع، أو أي من أطفاله.\n"
+"في سياق يحتوي على مستودع واحد، يشمل ذلك البضائع التي تصل إلى موقع المخزون في هذا المستودع، أو أي من أطفاله.\n"
+"بخلاف ذلك، يشمل ذلك البضائع التي تصل إلى أي موقع مخزون من نوع 'داخلي'."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__outgoing_qty
+msgid ""
+"Quantity of planned outgoing products.\n"
+"In a context with a single Stock Location, this includes goods leaving this Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods leaving the Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods leaving any Stock Location with 'internal' type."
+msgstr ""
+"الكمية المخطط خروجها.\n"
+"في سياق يحتوي على موقع مخزون واحد، يشمل ذلك البضائع التي تخرج من هذا الموقع، أو أي من أطفاله.\n"
+"في سياق يحتوي على مستودع واحد، يشمل ذلك البضائع التي تخرج من موقع المخزون في هذا المستودع، أو أي من أطفاله.\n"
+"بخلاف ذلك، يشمل ذلك البضائع التي تخرج من أي موقع مخزون من نوع 'داخلي'."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__item_rate
+msgid "Rate"
+msgstr "الأسعار"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__rating_ids
+msgid "Rating"
+msgstr "التقييم"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__rating_avg
+msgid "Rating Average"
+msgstr "متوسط التقييم"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__rating_last_feedback
+msgid "Rating Last Feedback"
+msgstr "أحدث تقييم وردود الفعل"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__rating_last_image
+msgid "Rating Last Image"
+msgstr "أحدث صورة للتقييم"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__rating_last_value
+msgid "Rating Last Value"
+msgstr "أحدث قيمة للتقييم"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__rating_count
+msgid "Rating count"
+msgstr "عدد التقييمات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__expense_policy
+msgid "Re-Invoice Expenses"
+msgstr "إعادة فاتورة النفقات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__visible_expense_policy
+msgid "Re-Invoice Policy visible"
+msgstr "سياسة إعادة الفواتير مرئية"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__rating_last_feedback
+msgid "Reason of the rating"
+msgstr "سبب التقييم"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__code
+msgid "Reference"
+msgstr "المرجع"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__reordering_max_qty
+msgid "Reordering Max Qty"
+msgstr "الحد الأقصى لإعادة الطلب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__reordering_min_qty
+msgid "Reordering Min Qty"
+msgstr "الحد الأدنى لإعادة الطلب"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__nbr_reordering_rules
+msgid "Reordering Rules"
+msgstr "قواعد إعادة الطلب"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.hotel_restaurant_reservation_report123
+msgid "Reservation List"
+msgstr "قائمة الحجوزات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__reservation_id
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__name
+msgid "Reservation No"
+msgstr "رقم الحجز"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__responsible_id
+msgid "Responsible"
+msgstr "المسؤول"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.hotel_restaurant_menu
+msgid "Restaurant"
+msgstr "مطعم"
+
+#. module: hotel_restaurant
+#: model:ir.actions.act_window,name:hotel_restaurant.action_hotel_restaurant_wizard
+msgid "Restaurant Reservation List"
+msgstr "قائمة حجوزات المطعم"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__website_id
+msgid "Restrict publishing to this website."
+msgstr "تقييد النشر لهذا الموقع الإلكتروني."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__room_no
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets__room_no
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__room_no
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__room_no
+msgid "Room No"
+msgstr "رقم الغرفة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__route_ids
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__route_ids
+msgid "Routes"
+msgstr "طرق"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__is_seo_optimized
+msgid "SEO optimized"
+msgstr "محسن لمحركات البحث"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل النصية"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__description_sale
+msgid "Sales Description"
+msgstr "وصف المبيعات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__sale_line_warn
+msgid "Sales Order Line"
+msgstr "سطر طلب المبيعات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__list_price
+msgid "Sales Price"
+msgstr "سعر البيع"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_reservation_order_filter
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_restaurant_order_filter
+msgid "Search Table Order"
+msgstr "بحث طلب الطاولة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__categ_id
+msgid "Select category for the current product"
+msgstr "اختر الفئة للمنتج الحالي"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__sale_line_warn
+msgid ""
+"Selecting the \"Warning\" option will notify user with the message, "
+"Selecting \"Blocking Message\" will throw an exception with the message and "
+"block the flow. The Message has to be written in the next field."
+msgstr ""
+"اختيار خيار \"تحذير\" سيقوم بإخطار المستخدم بالرسالة، "
+"اختيار \"رسالة حظر\" سيؤدي إلى حدوث استثناء مع الرسالة و "
+"حظر التدفق. يجب كتابة الرسالة في الحقل التالي."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__sequence
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__name
+msgid "Sequence"
+msgstr "تسلسل"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard_type__removal_strategy_id
+msgid ""
+"Set a specific removal strategy that will be used regardless of the source "
+"location for this product category"
+msgstr ""
+"حدد استراتيجية إزالة محددة سيتم استخدامها بغض النظر عن المصدر "
+"الموقع لفئة المنتج هذه"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_reservation_form
+msgid "Set to Draft"
+msgstr "ضبط على مسودة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__website_size_x
+msgid "Size X"
+msgstr "الحجم X"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__website_size_y
+msgid "Size Y"
+msgstr "الحجم Y"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__sales_count
+msgid "Sold"
+msgstr "مباع"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__cost_method
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard_type__property_cost_method
+msgid ""
+"Standard Price: The products are valued at their standard cost defined on the product.\n"
+"        Average Cost (AVCO): The products are valued at weighted average cost.\n"
+"        First In First Out (FIFO): The products are valued supposing those that enter the company first will also leave it first.\n"
+"        "
+msgstr ""
+"السعر القياسي: يتم تقييم المنتجات بتكلفتها القياسية المحددة على المنتج.\n"
+"        التكلفة المتوسطة (AVCO): يتم تقييم المنتجات بتكلفة متوسط مرجح.\n"
+"        الأول في الأول خارج (FIFO): يتم تقييم المنتجات على افتراض أن تلك التي تدخل الشركة أولاً ستغادرها أولاً.\n"
+"        "
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__start_date
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__state
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__state
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__state
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_tables__state
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_reservation_order_filter
+msgid "State"
+msgstr "الولاية"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__state
+msgid "Status"
+msgstr "الحالة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة بناءً على الأنشطة\n"
+"متأخر: تاريخ الاستحقاق قد مر بالفعل\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"مخطط: الأنشطة المستقبلية."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__property_stock_account_input_categ_id
+msgid "Stock Input Account"
+msgstr "حساب إدخال المخزون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__property_stock_journal
+msgid "Stock Journal"
+msgstr "دفتر أستاذ المخزون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__stock_move_ids
+msgid "Stock Move"
+msgstr "حركة المخزون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__property_stock_account_output_categ_id
+msgid "Stock Output Account"
+msgstr "حساب إخراج المخزون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__stock_quant_ids
+msgid "Stock Quant"
+msgstr "كمية المخزون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__property_stock_valuation_account_id
+msgid "Stock Valuation Account"
+msgstr "حساب تقييم المخزون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__stock_valuation_layer_ids
+msgid "Stock Valuation Layer"
+msgstr "طبقة تقييم المخزون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__website_style_ids
+msgid "Styles"
+msgstr "أنماط"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__amount_subtotal
+msgid "SubTotal"
+msgstr "إجمالي جزئي"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__amount_subtotal
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order_list__price_subtotal
+msgid "Subtotal"
+msgstr "إجمالي"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__alternative_product_ids
+msgid ""
+"Suggest alternatives to your customer (upsell strategy). Those products show"
+" up on the product page."
+msgstr ""
+"اقترح بدائل لعملائك (استراتيجية البيع الإضافي). تظهر تلك المنتجات"
+" على صفحة المنتج."
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_tables_form
+msgid "Supplier Invoice"
+msgstr "فاتورة المورد"
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.menu_open_view_hotel_restaurant_reservation_form_tree
+msgid "Table Booking"
+msgstr "حجز طاولة"
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.menu_open_view_hotel_restaurant_order_form_tree
+msgid "Table Order"
+msgstr "طلب طاولة"
+
+#. module: hotel_restaurant
+#: model:ir.actions.act_window,name:hotel_restaurant.open_view_hotel_restaurant_reservation_form_tree
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_reservation_tree
+msgid "Table Reservation"
+msgstr "حجز الطاولات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__table_no
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets__tableno
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__table_no
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation__tableno
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_tables__name
+msgid "Table number"
+msgstr "رقم الطاولة"
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.menu_open_view_hotel_restaurant_tables_form_tree
+msgid "Tables"
+msgstr "طاولات"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__valid_product_template_attribute_line_ids
+msgid "Technical compute"
+msgstr "Cálculo técnico"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__pricelist_id
+msgid ""
+"Technical field. Used for searching on pricelists, not stored in database."
+msgstr ""
+"Campo técnico. Se utiliza para buscar en listas de precios, no se almacena en la base de datos."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__stock_move_ids
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__stock_quant_ids
+msgid "Technical: used to compute quantities."
+msgstr "Técnico: utilizado para calcular cantidades."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__state
+msgid "Tells the user if room is available of booked."
+msgstr "Informa al usuario si la habitación está disponible o reservada."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard_type__property_account_expense_categ_id
+msgid ""
+"The expense is accounted for when a vendor bill is validated, except in "
+"anglo-saxon accounting with perpetual inventory valuation in which case the "
+"expense (Cost of Goods Sold account) is recognized at the customer invoice "
+"validation."
+msgstr ""
+"El gasto se contabiliza cuando se valida una factura de proveedor, excepto en "
+"contabilidad anglosajona con valoración perpetua del inventario, en cuyo caso el "
+"gasto (cuenta de Costo de Ventas) se reconoce en la validación de la factura del cliente."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__website_url
+msgid "The full URL to access the document through the website."
+msgstr "La URL completa para acceder al documento a través del sitio web."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard_type__product_count
+msgid ""
+"The number of products under this category (Does not consider the children "
+"categories)"
+msgstr ""
+"El número de productos bajo esta categoría (No considera las categorías hijas)."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__public_categ_ids
+msgid ""
+"The product will be available in each mentioned eCommerce category. Go to "
+"Shop > Customize and enable 'eCommerce categories' to view all eCommerce "
+"categories."
+msgstr ""
+"El producto estará disponible en cada categoría de comercio electrónico mencionada. "
+"Vaya a Tienda > Personalizar y habilite 'Categorías de comercio electrónico' para "
+"ver todas las categorías de comercio electrónico."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__lst_price
+msgid ""
+"The sale price is managed from the product template. Click on the 'Configure"
+" Variants' button to set the extra attribute prices."
+msgstr ""
+"El precio de venta se gestiona desde la plantilla del producto. Haga clic en el botón "
+"'Configurar Variantes' para establecer los precios de los atributos adicionales."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard_type__property_account_income_categ_id
+msgid "This account will be used when validating a customer invoice."
+msgstr "Esta cuenta se utilizará al validar una factura del cliente."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__price_extra
+msgid "This is the sum of the extra price of all attributes"
+msgstr "Esta es la suma del precio adicional de todos los atributos."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__property_stock_production
+msgid ""
+"This stock location will be used, instead of the default one, as the source "
+"location for stock moves generated by manufacturing orders."
+msgstr ""
+"Esta ubicación de stock se utilizará, en lugar de la predeterminada, como la ubicación "
+"de origen para los movimientos de stock generados por órdenes de fabricación."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__property_stock_inventory
+msgid ""
+"This stock location will be used, instead of the default one, as the source "
+"location for stock moves generated when you do an inventory."
+msgstr ""
+"Esta ubicación de stock se utilizará, en lugar de la predeterminada, como la ubicación "
+"de origen para los movimientos de stock generados cuando realice un inventario."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__responsible_id
+msgid ""
+"This user will be responsible of the next activities related to logistic "
+"operations for this product."
+msgstr ""
+"Este usuario será responsable de las próximas actividades relacionadas con las "
+"operaciones logísticas para este producto."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation_wizard__date_end
+msgid "To Date"
+msgstr "Hasta fecha"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__to_weight
+msgid "To Weigh With Scale"
+msgstr "Para pesar con escala"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__amount_total
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__amount_total
+msgid "Total"
+msgstr "Total"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard_type__total_route_ids
+msgid "Total routes"
+msgstr "Total de rutas"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__service_type
+msgid "Track Service"
+msgstr "Rastreo de servicio"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__tracking
+msgid "Tracking"
+msgstr "Rastreo"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de la actividad de excepción en el registro."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__uom_id
+msgid "Unit of Measure"
+msgstr "Unidad de medida"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__uom_name
+msgid "Unit of Measure Name"
+msgstr "Nombre de la unidad de medida"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes no leídos"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes no leídos"
+
+#. module: hotel_restaurant
+#: model_terms:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_tables_form
+msgid "Update"
+msgstr "Actualizar"
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__valid_product_template_attribute_line_ids
+msgid "Valid Product Attribute Lines"
+msgstr "أسطر سمات المنتج الصالحة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__value_svl
+msgid "Value Svl"
+msgstr "قيمة Svl"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__image_variant_1920
+msgid "Variant Image"
+msgstr "صورة النسخة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__image_variant_1024
+msgid "Variant Image 1024"
+msgstr "صورة النسخة 1024"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__image_variant_128
+msgid "Variant Image 128"
+msgstr "صورة النسخة 128"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__image_variant_256
+msgid "Variant Image 256"
+msgstr "صورة النسخة 256"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__image_variant_512
+msgid "Variant Image 512"
+msgstr "صورة النسخة 512"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__price_extra
+msgid "Variant Price Extra"
+msgstr "سعر النسخة الإضافي"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__variant_seller_ids
+msgid "Variant Seller"
+msgstr "بائع النسخة"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__supplier_taxes_id
+msgid "Vendor Taxes"
+msgstr "ضرائب المورد"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__seller_ids
+msgid "Vendors"
+msgstr "الموردون"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__website_published
+msgid "Visible on current website"
+msgstr "مرئي على الموقع الحالي"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__volume
+msgid "Volume"
+msgstr "الحجم"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__volume_uom_name
+msgid "Volume unit of measure label"
+msgstr "ملصق وحدة قياس الحجم"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_reservation_order__waitername
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_kitchen_order_tickets__w_name
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_order__waiter_name
+msgid "Waiter Name"
+msgstr "اسم النادل"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__warehouse_id
+msgid "Warehouse"
+msgstr "المستودع"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__website_id
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع الإلكتروني"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__public_categ_ids
+msgid "Website Product Category"
+msgstr "فئة المنتج على الموقع الإلكتروني"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__website_sequence
+msgid "Website Sequence"
+msgstr "تسلسل الموقع الإلكتروني"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__website_url
+msgid "Website URL"
+msgstr "عنوان URL للموقع الإلكتروني"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard__website_message_ids
+msgid "Website communication history"
+msgstr "تاريخ التواصل عبر الموقع الإلكتروني"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__website_meta_description
+msgid "Website meta description"
+msgstr "وصف ميتا للموقع الإلكتروني"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__website_meta_keywords
+msgid "Website meta keywords"
+msgstr "كلمات رئيسية ميتا للموقع الإلكتروني"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__website_meta_title
+msgid "Website meta title"
+msgstr "عنوان ميتا للموقع الإلكتروني"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__website_meta_og_img
+msgid "Website opengraph image"
+msgstr "صورة OpenGraph للموقع الإلكتروني"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__weight
+msgid "Weight"
+msgstr "الوزن"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_menucard__weight_uom_name
+msgid "Weight unit of measure label"
+msgstr "ملصق وحدة قياس الوزن"
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard_type__property_stock_valuation_account_id
+msgid ""
+"When automated inventory valuation is enabled on a product, this account "
+"will hold the current value of the products."
+msgstr ""
+"عندما يتم تفعيل تقييم المخزون الآلي للمنتج، ستحتفظ هذه الحسابات بالقيمة الحالية للمنتجات."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard_type__property_stock_account_input_categ_id
+msgid ""
+"When doing automated inventory valuation, counterpart journal items for all incoming stock moves will be posted in this account,\n"
+"                unless there is a specific valuation account set on the source location. This is the default value for all products in this category.\n"
+"                It can also directly be set on each product."
+msgstr ""
+"عند إجراء تقييم المخزون الآلي، سيتم تسجيل القيود المحاسبية المقابلة لجميع الحركات المخزنية الواردة في هذا الحساب،\n"
+"                ما لم يتم تعيين حساب تقييم محدد على موقع المصدر. هذا هو القيمة الافتراضية لجميع المنتجات في هذه الفئة.\n"
+"                يمكن أيضًا تعيينه مباشرة لكل منتج."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard_type__property_stock_account_output_categ_id
+msgid ""
+"When doing automated inventory valuation, counterpart journal items for all outgoing stock moves will be posted in this account,\n"
+"                unless there is a specific valuation account set on the destination location. This is the default value for all products in this category.\n"
+"                It can also directly be set on each product."
+msgstr ""
+"عند إجراء تقييم المخزون الآلي، سيتم تسجيل القيود المحاسبية المقابلة لجميع الحركات المخزنية الصادرة في هذا الحساب،\n"
+"                ما لم يتم تعيين حساب تقييم محدد على موقع الوجهة. هذا هو القيمة الافتراضية لجميع المنتجات في هذه الفئة.\n"
+"                يمكن أيضًا تعيينه مباشرة لكل منتج."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_menucard_type__property_stock_journal
+msgid ""
+"When doing automated inventory valuation, this is the Accounting Journal in "
+"which entries will be automatically posted when stock moves are processed."
+msgstr ""
+"عند إجراء تقييم المخزون الآلي، يكون هذا هو دفتر اليومية المحاسبي الذي سيتم تسجيل الإدخالات فيه تلقائيًا عند معالجة الحركات المخزنية."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_restaurant_order__partner_id
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_restaurant_reservation__cname
+msgid "Will show customer name corresponding to selected room no."
+msgstr "سوف يظهر اسم العميل الذي يتوافق مع رقم الغرفة المحدد."
+
+#. module: hotel_restaurant
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_restaurant_order__room_no
+#: model:ir.model.fields,help:hotel_restaurant.field_hotel_restaurant_reservation__room_no
+msgid ""
+"Will show list of currently occupied room no that belongs to selected shop."
+msgstr "سوف يعرض قائمة بأرقام الغرف المشغولة حاليًا والتي تنتمي إلى المتجر المحدد."
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_menucard_type
+msgid "amenities Type"
+msgstr "نوع المرافق"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_restaurant_reservation_wizard
+msgid "hotel_restaurant_reservation_wizard"
+msgstr "معالج حجز الفندق"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_restaurant_wizard
+msgid "hotel_restaurant_wizard"
+msgstr "معالج الفندق والمطعم"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_report_hotel_restaurant_hotel_restaurant_reservation_report123
+msgid "report hotel restaurant hotel restaurant reservation report"
+msgstr "تقرير حجز الفندق والمطعم"
